@@ -7,19 +7,28 @@ import InputText from './useReducer/TaskReducer/InputText';
 import UseRef from './useRef/UseRef';
 import EncrptDecrypt from "./encrypt-decrypt/EncrptDecrypt";
 import File from './chooseFile/File';
+import AudioPlayer from './chooseFile/AudioPlayer';
+import DropZone from './chooseFile/DropZone';
 
 
 function App() {
   return (
     <>
     {/* <Main/> */}
-    {/* <InputTagComponent/>  <------- sample file from chat gpt */}
-    {/* <DemoTodo/>   <------------sample file from w3school*/}
+    {/* <InputTagComponent/>      */}
+     {/* ^^------- sample file from chat gpt */}
+
+    {/* <DemoTodo/>    */}
+    {/* ^^------------sample file from w3school */}
+
     {/* <InputText/> */}
     {/* <Qr/> */}
     {/* <UseRef/> */}
     {/* <EncrptDecrypt/> */}
-    <File/>
+    {/* <File/> */}
+    {/* <AudioPlayer/>    */}
+    {/* ^^------- sample file from chat gpt with manual play pause button   */}
+    <DropZone/>
     </>
   );
 }
